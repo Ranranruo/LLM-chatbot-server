@@ -1,0 +1,101 @@
+# =============================
+# Spring Boot / Java
+# =============================
+*.class
+*.jar
+*.war
+*.ear
+
+# =============================
+# Gradle
+# =============================
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+gradle-wrapper.properties
+
+# =============================
+# Maven
+# =============================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# =============================
+# Logs
+# =============================
+logs/
+*.log
+*.out
+*.err
+
+# =============================
+# IDE
+# =============================
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# =============================
+# OS
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# Docker
+# =============================
+docker-compose.override.yml
+*.env
+*.pid
+*.swp
+
+# =============================
+# Temporary / Backup
+# =============================
+*.tmp
+*.bak
+*.orig
+*.old
+
+# =============================
+# Spring MSA Specific
+# =============================
+# Config server local files
+config-repo/
+*.yml.local
+*.properties.local
+
+# Eureka temporary files (if any)
+*.eureka
+
+# =============================
+# Node.js (if you have Node services)
+# =============================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# =============================
+# Python (if you have FastAPI services)
+# =============================
+__pycache__/
+*.pyc
+.env
